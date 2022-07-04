@@ -1,0 +1,12 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "there is an object in studentData.js with structure as [   {     _id: '{{objectId()}}',     index: '{{index()}}',     name: '{{firstName()}} {{surname()}}',     picture: 'http://placehold.it/32x32',     age: '{{integer(12, 18)}}',     gender: '{{gender()}}',     email: '{{email()}}',     phone: '+1 {{phone()}}',     address: '{{integer(100, 999)}} {{street()}}, {{city()}}, {{state()}}, {{integer(100, 10000)}}',     marks:{physics:'{{integer(0, 100)}}',            chem:'{{integer(0, 100)}}',            math:'{{integer(0, 100)}}',            cs:'{{integer(0, 100)}}',            bio:'{{integer(0, 100)}}',            english:'{{integer(0, 100)}}'}   }   .... ]",
+  "main": "solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
